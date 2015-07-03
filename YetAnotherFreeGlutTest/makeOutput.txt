@@ -1,0 +1,11 @@
+**** Build of configuration Debug for project YetAnotherFreeGlutTest ****
+
+**** Internal Builder is used for build               ****
+g++ -IC:\MinGW\freeglut\include -IC:\MinGW\include\GL -IC:\MinGW\freeglut\include\GL -O0 -g3 -Wall -c -fmessage-length=0 -o src\Main.o ..\src\Main.cpp
+In file included from C:\MinGW\freeglut\include/GL/glut.h:17:0,
+                 from ..\src\Main.cpp:18:
+C:\MinGW\freeglut\include/GL/freeglut_std.h:60:0: warning: "NOMINMAX" redefined [enabled by default]
+c:\mingw\bin\../lib/gcc/mingw32/4.6.1/include/c++/mingw32/bits/os_defines.h:46:0: note: this is the location of the previous definition
+g++ -LC:\MinGW\freeglut\lib\archive\old -LC:\MinGW\lib -o YetAnotherFreeGlutTest.exe src\glutWrapper.o src\Main.o -lfreeglut -lfreeglut_static -lopengl32 -lglaux -lglu32
+Build complete for project YetAnotherFreeGlutTest
+Time consumed: 2758  ms.  
